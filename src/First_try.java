@@ -89,7 +89,8 @@ public class First_try {
 		 
 		 //test
 		 Evaluation eval = new Evaluation(data);
-		 eval.evaluateModel(fc, test);
+//		 eval.evaluateModel(fc, test);
+		 eval.evaluateModel(fc, data);
 		 System.out.println(eval.toSummaryString("\nResults\n======\n", false));
 		 
 	}
